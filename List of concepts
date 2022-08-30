@@ -19,8 +19,8 @@ terraform destroy = command is a convenient way to destroy all remote objects ma
 
 
 - Variables
-Variable declaration
-Variable definition 
+Variable declaration = 
+Variable definition = 
 
 
 - Terraform Data Types
