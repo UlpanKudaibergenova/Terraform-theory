@@ -1,0 +1,66 @@
+- Object Types:
+Providers = A Terraform plugin that allows users to manage an external API.
+Resources =  Resources are the most important element in the Terraform language. Each resource block describes one or more infrastructure objects, such as virtual networks, compute instances, or higher-level components such as DNS records.
+Data sources = Data sources allow Terraform to use information defined outside of Terraform, defined by another separate Terraform configuration, or modified by functions.
+
+
+- Syntax
+The majority of the Terraform language documentation focuses on the practical uses of the language and the specific constructs it uses. The pages in this section offer a more abstract view of the Terraform language.
+
+       Configuration Syntax describes the native grammar of the Terraform language.
+       JSON Configuration Syntax documents how to represent Terraform language constructs in the pure JSON variant of the Terraform language. Terraform's JSON syntax is unfriendly to humans, but can be very useful when generating infrastructure as code with other systems that don't have a readily available HCL library.
+       Style Conventions documents some commonly accepted formatting guidelines for Terraform code. These conventions can be enforced automatically with terraform fmt.
+
+- Workflow
+terraform init  = command is used to initialize a working directory containing Terraform configuration files.
+terraform plan = command is used to initialize a working directory containing Terraform configuration files.
+terraform apply = command executes the actions proposed in a Terraform plan.
+terraform destroy = command is a convenient way to destroy all remote objects managed by a particular Terraform configuration.
+
+
+- Variables
+Variable declaration
+Variable definition
+
+
+- Terraform Data Types
+(The result of an expression is a value. All values have a type, which dictates where that value can be used and what transformations can be applied to it.)
+
+(Strings, numbers, and bools are sometimes called primitive types.
+Lists/tuples and maps/objects are sometimes called complex types, structural types, or collection types.)
+
+* Primitives:
+String = a sequence of Unicode characters representing some text, like "hello".
+Number = a numeric value. The number type can represent both whole numbers like 15 and fractional values like 6.283185.
+Boolean = a boolean value, either true or false. bool values can be used in conditional logic.
+
+* Collection
+list = (or tuple): a sequence of values, like ["us-west-1a", "us-west-1c"]. Elements in a list or tuple are identified by consecutive whole numbers, starting with zero.
+set 
+map =(or object): a group of values identified by named labels, like {name = "Mabel", age = 52}.
+structural
+
+* Terraform Locals = A local value assigns a name to an expression, so you can use the name multiple times within a module instead of repeating the expression.
+* Terraform output = Output values make information about your infrastructure available on the command line, and can expose information for other Terraform configurations to use.
+* Terraform State Data =
+
+
+-Terraform Looping Constructs
+count
+for
+for_each
+Dynamic block
+
+- Terraform Inbuilt Functions
+Numeric Functions  - min /min(set number) number & max /max(set number) number & parseint /parseint(string stringNumber, number base) number & floor /floor(number num) & ceil /ceil(number num)  & abs / abs(number num) number  & signum / signum(number num)     
+
+Reference: https://alessandromarinoac.com/posts/iac/terraform/numeric-functions-cheatsheet/
+
+String Functions 
+Collection Functions
+Encoding Functions
+Filesystem Functions
+Date and Time Functions
+Hash & Crypto Functions
+IP Network Functions
+Type Conversion Functions
