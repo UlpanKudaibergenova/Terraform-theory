@@ -3,8 +3,8 @@
 
 ### Module: Infrastructure As Code
 Competency: is able to learn the HashiCorp Configuration Language (HCL) and all the concepts behind terraform.
-Duration: 2 days
-Participant(s): solo
+
+
 
 ### Introduction
 Terraform manages external resources (such as public cloud infrastructure, private cloud infrastructure, network appliances, software as a service, and platform as a service) with "providers". HashiCorp maintains an extensive list of official providers, and can also integrate with community-developed providers. Users can interact with Terraform providers by declaring resources or by calling data sources. Rather than using imperative commands to provision resources, Terraform uses declarative configuration to describe the desired final state. Once a user invokes Terraform on a given resource, Terraform will perform CRUD actions on the user's behalf to accomplish the desired state. The infrastructure as code can be written as modules, promoting reusability and maintainability.
@@ -98,3 +98,5 @@ Primitives:
 - Pluralsight: Getting Strated with Terraform 
 
 - [Terraform documentation](https://www.terraform.io/language)
+
+- [Terraform theory in Russian](https://habr.com/ru/post/537808/)
