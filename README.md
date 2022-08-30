@@ -99,6 +99,10 @@ Primitives:
 
 - [Terraform documentation](https://www.terraform.io/language)
 
-- [Terraform theory in Russian](https://habr.com/ru/post/537808/)
+- [Знакомство с типичными примерами использования встроенных функций Terraform](https://habr.com/ru/post/537808/)
 
 - [Подводные камни Terraform](https://habr.com/ru/company/piter/blog/496820/)
+
+- [Что такое модули Terraform и как они работают?](https://habr.com/ru/post/553576/)
+
+- [Используем Ansible вместе с Terraform](https://habr.com/ru/company/southbridge/blog/525810/)
