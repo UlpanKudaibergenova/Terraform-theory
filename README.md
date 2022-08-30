@@ -100,3 +100,5 @@ Primitives:
 - [Terraform documentation](https://www.terraform.io/language)
 
 - [Terraform theory in Russian](https://habr.com/ru/post/537808/)
+
+- [Подводные камни Terraform](https://habr.com/ru/company/piter/blog/496820/)
